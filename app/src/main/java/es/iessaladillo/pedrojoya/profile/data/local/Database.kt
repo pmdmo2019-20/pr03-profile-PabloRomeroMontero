@@ -3,6 +3,7 @@ package es.iessaladillo.pedrojoya.profile.data.local
 import es.iessaladillo.pedrojoya.profile.R
 import es.iessaladillo.pedrojoya.profile.data.local.entity.Avatar
 
+
 object Database {
 
     private val avatars = listOf(

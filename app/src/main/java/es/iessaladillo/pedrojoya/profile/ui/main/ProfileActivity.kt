@@ -13,8 +13,8 @@ import es.iessaladillo.pedrojoya.profile.data.local.entity.Avatar
 import es.iessaladillo.pedrojoya.profile.ui.avatar.AvatarActivity
 import es.iessaladillo.pedrojoya.profile.utils.*
 import kotlinx.android.synthetic.main.profile_activity.*
-import kotlinx.android.synthetic.main.profile_avatar.*
-import kotlinx.android.synthetic.main.profile_form.*
+//import kotlinx.android.synthetic.main.profile_avatar.*
+//import kotlinx.android.synthetic.main.profile_form.*
 
 class ProfileActivity : AppCompatActivity() {
 

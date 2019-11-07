@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagen1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imagen4"
+        app:layout_constraintEnd_toStartOf="@+id/imagen2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[0]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imagen5"
+        app:layout_constraintEnd_toStartOf="@+id/imagen3"
+        app:layout_constraintStart_toEndOf="@+id/imagen1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[1]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imagen6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagen2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imagen7"
+        app:layout_constraintEnd_toStartOf="@+id/imagen5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagen1"
+        tools:srcCompat="@tools:sample/avatars[3]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imagen8"
+        app:layout_constraintEnd_toStartOf="@+id/imagen6"
+        app:layout_constraintStart_toEndOf="@+id/imagen4"
+        app:layout_constraintTop_toBottomOf="@+id/imagen2"
+        tools:srcCompat="@tools:sample/avatars[4]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imagen9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagen5"
+        app:layout_constraintTop_toBottomOf="@+id/imagen3"
+        tools:srcCompat="@tools:sample/avatars[5]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagen8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagen4"
+        tools:srcCompat="@tools:sample/avatars[6]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagen9"
+        app:layout_constraintStart_toEndOf="@+id/imagen7"
+        app:layout_constraintTop_toBottomOf="@+id/imagen5"
+        tools:srcCompat="@tools:sample/avatars[7]"
+        android:contentDescription="@string/setDescription_value" />
+
+    <ImageView
+        android:id="@+id/imagen9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagen8"
+        app:layout_constraintTop_toBottomOf="@+id/imagen6"
+        tools:srcCompat="@tools:sample/avatars[8]"
+        android:contentDescription="@string/setDescription_value" />
+</androidx.constraintlayout.widget.ConstraintLayout>
