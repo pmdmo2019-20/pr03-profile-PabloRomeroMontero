@@ -21,7 +21,11 @@ class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.profile_activity)
-        // TODO
+        initsViews()
+    }
+
+    private fun initsViews() {
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -38,7 +42,7 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun save() {
-        // TODO
+         TODO
     }
 
 }

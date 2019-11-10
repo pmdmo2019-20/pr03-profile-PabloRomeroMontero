@@ -3,4 +3,22 @@
     <string name="avatar_title">Select Avatar</string>
     <string name="profile_title">User profile</string>
     <string name="setDescription_value">pokemon</string>
+    <string name="avatar_select">Select Avatar</string>
+    <string name="profile_save">User Profile</string>
+    <string name="lblRequired">(*) Required</string>
+    <string name="profile_invalid_phonenumber">invalid_phonenumber</string>
+    <string name="profile_invalid_address">invalid_address</string>
+    <string name="profile_invalid_web">invalid_web</string>
+    <string name="profile_invalid_name">invalid name</string>
+    <string name="profile_invalid_email">invalid email</string>
+    <string name="lblName_text">Name</string>
+    <string name="name_hint">(name)</string>
+    <string name="lblEmail_text">Email(*)</string>
+    <string name="lblPhonenumber_text">Phone Number(*)</string>
+    <string name="email_hint">(email)</string>
+    <string name="phone_hint">(phone)</string>
+    <string name="lblAddress_text">Address(*)</string>
+    <string name="address_hint">(address)</string>
+    <string name="lblWeb_text">Web(*)</string>
+    <string name="web_hint">(web)</string>
 </resources>
