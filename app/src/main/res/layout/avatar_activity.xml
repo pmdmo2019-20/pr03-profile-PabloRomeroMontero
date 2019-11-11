@@ -10,320 +10,308 @@
     tools:ignore="ExtraText">
 
     <ImageView
-        android:id="@+id/imagen1"
+        android:id="@+id/imgAvatar1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imagen4"
-        app:layout_constraintEnd_toStartOf="@+id/imagen2"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar4"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars[0]" />
 
     <ImageView
-        android:id="@+id/imagen2"
+        android:id="@+id/imgAvatar2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imagen5"
-        app:layout_constraintEnd_toStartOf="@+id/imagen3"
-        app:layout_constraintStart_toEndOf="@+id/imagen1"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar5"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar3"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar1"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars[1]" />
 
     <ImageView
-        android:id="@+id/imagen3"
+        android:id="@+id/imgAvatar3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imagen6"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imagen2"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar2"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars[2]" />
 
     <ImageView
-        android:id="@+id/imagen4"
+        android:id="@+id/imgAvatar4"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imagen7"
-        app:layout_constraintEnd_toStartOf="@+id/imagen5"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar7"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagen1"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar1"
         tools:srcCompat="@tools:sample/avatars[3]" />
 
     <ImageView
-        android:id="@+id/imagen5"
+        android:id="@+id/imgAvatar5"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imagen8"
-        app:layout_constraintEnd_toStartOf="@+id/imagen6"
-        app:layout_constraintStart_toEndOf="@+id/imagen4"
-        app:layout_constraintTop_toBottomOf="@+id/imagen2"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar8"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar6"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar4"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar2"
         tools:srcCompat="@tools:sample/avatars[4]" />
 
     <ImageView
-        android:id="@+id/imagen6"
+        android:id="@+id/imgAvatar6"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imagen9"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imagen5"
-        app:layout_constraintTop_toBottomOf="@+id/imagen3"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar5"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar3"
         tools:srcCompat="@tools:sample/avatars[5]" />
 
     <ImageView
-        android:id="@+id/imagen7"
+        android:id="@+id/imgAvatar7"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imagen8"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagen4"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar4"
         tools:srcCompat="@tools:sample/avatars[6]" />
 
     <ImageView
-        android:id="@+id/imagen8"
+        android:id="@+id/imgAvatar8"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imagen9"
-        app:layout_constraintStart_toEndOf="@+id/imagen7"
-        app:layout_constraintTop_toBottomOf="@+id/imagen5"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar9"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar7"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar5"
         tools:srcCompat="@tools:sample/avatars[7]" />
 
     <ImageView
-        android:id="@+id/imagen9"
+        android:id="@+id/imgAvatar9"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/setDescription_value"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imagen8"
-        app:layout_constraintTop_toBottomOf="@+id/imagen6"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar8"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar6"
         tools:srcCompat="@tools:sample/avatars[8]" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/lblAvatar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen1"
-        app:layout_constraintEnd_toEndOf="@+id/imagen1"
-        app:layout_constraintStart_toStartOf="@id/imagen1"
-        app:layout_constraintTop_toTopOf="@id/imagen1"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar1"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar1"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar1"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar1"
+        app:layout_constraintVertical_bias="0.951" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/lblAvatar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen2"
-        app:layout_constraintEnd_toEndOf="@+id/imagen2"
-        app:layout_constraintStart_toStartOf="@id/imagen2"
-        app:layout_constraintTop_toTopOf="@id/imagen2"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar2"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar2"
+        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar2"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar2"
+        app:layout_constraintVertical_bias="0.951" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/lblAvatar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen3"
-        app:layout_constraintEnd_toEndOf="@+id/imagen3"
-        app:layout_constraintStart_toStartOf="@id/imagen3"
-        app:layout_constraintTop_toTopOf="@id/imagen3"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar3"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar3"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar3"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar3"
+        app:layout_constraintVertical_bias="0.951" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/lblAvatar4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen4"
-        app:layout_constraintEnd_toEndOf="@+id/imagen4"
-        app:layout_constraintStart_toStartOf="@id/imagen4"
-        app:layout_constraintTop_toTopOf="@id/imagen4"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="452dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar4"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar4"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar4"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar4"
+        app:layout_constraintVertical_bias="0.942" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/lblAvatar5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen5"
-        app:layout_constraintEnd_toEndOf="@+id/imagen5"
-        app:layout_constraintStart_toStartOf="@id/imagen5"
-        app:layout_constraintTop_toTopOf="@id/imagen5"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="444dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar5"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar5"
+        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar5"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar5"
+        app:layout_constraintVertical_bias="0.942" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/lblAvatar6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen6"
-        app:layout_constraintEnd_toEndOf="@+id/imagen6"
-        app:layout_constraintStart_toStartOf="@id/imagen6"
-        app:layout_constraintTop_toTopOf="@id/imagen6"
-        tools:layout_editor_absoluteX="322dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar6"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar6"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar6"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar6"
+        app:layout_constraintVertical_bias="0.942" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/lblAvatar7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen7"
-        app:layout_constraintEnd_toEndOf="@+id/imagen7"
-        app:layout_constraintStart_toStartOf="@id/imagen7"
-        app:layout_constraintTop_toTopOf="@id/imagen7"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="686dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar7"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar7"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar7"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar7"
+        app:layout_constraintVertical_bias="0.924" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/lblAvatar8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen8"
-        app:layout_constraintEnd_toEndOf="@+id/imagen8"
-        app:layout_constraintStart_toStartOf="@id/imagen8"
-        app:layout_constraintTop_toTopOf="@id/imagen8"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="688dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar8"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar8"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar8"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar8"
+        app:layout_constraintVertical_bias="0.924" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/chkAvatar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="212dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen1"
-        app:layout_constraintEnd_toEndOf="@+id/imagen1"
-        app:layout_constraintStart_toStartOf="@id/imagen1"
-        app:layout_constraintTop_toTopOf="@id/imagen1"
-        app:layout_constraintHorizontal_bias="0.037"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar1"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar1"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar1"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/chkAvatar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen2"
-        app:layout_constraintEnd_toEndOf="@+id/imagen2"
-        app:layout_constraintStart_toStartOf="@id/imagen2"
-        app:layout_constraintTop_toTopOf="@id/imagen2"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar2"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar2"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/chkAvatar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen3"
-        app:layout_constraintEnd_toEndOf="@+id/imagen3"
-        app:layout_constraintStart_toStartOf="@id/imagen3"
-        app:layout_constraintTop_toTopOf="@id/imagen3"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar3"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar3"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/chkAvatar4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen4"
-        app:layout_constraintEnd_toEndOf="@+id/imagen4"
-        app:layout_constraintStart_toStartOf="@id/imagen4"
-        app:layout_constraintTop_toTopOf="@id/imagen4"
-        tools:layout_editor_absoluteY="258dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar4"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar4"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar4"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/chkAvatar5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen5"
-        app:layout_constraintEnd_toEndOf="@+id/imagen5"
-        app:layout_constraintStart_toStartOf="@id/imagen5"
-        app:layout_constraintTop_toTopOf="@id/imagen5"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="258dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar5"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar5"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar5"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox7"
+        android:id="@+id/chkAvatar6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen6"
-        app:layout_constraintEnd_toEndOf="@+id/imagen6"
-        app:layout_constraintStart_toStartOf="@id/imagen6"
-        app:layout_constraintTop_toTopOf="@id/imagen6"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="505dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar6"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar6"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar6"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox8"
+        android:id="@+id/chkAvatar7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen7"
-        app:layout_constraintEnd_toEndOf="@+id/imagen7"
-        app:layout_constraintStart_toStartOf="@id/imagen7"
-        app:layout_constraintTop_toTopOf="@id/imagen7"
-        tools:layout_editor_absoluteX="285dp"
-        tools:layout_editor_absoluteY="258dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar7"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar7"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox10"
+        android:id="@+id/chkAvatar8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen8"
-        app:layout_constraintEnd_toEndOf="@+id/imagen8"
-        app:layout_constraintStart_toStartOf="@id/imagen8"
-        app:layout_constraintTop_toTopOf="@id/imagen8"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="509dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar8"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar8"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar8"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox11"
+        android:id="@+id/chkAvatar9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen9"
-        app:layout_constraintEnd_toEndOf="@+id/imagen9"
-        app:layout_constraintStart_toStartOf="@id/imagen9"
-        app:layout_constraintTop_toTopOf="@id/imagen9"
-        tools:layout_editor_absoluteX="302dp"
-        tools:layout_editor_absoluteY="528dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar9"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar9"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar9"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/lblAvatar9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imagen9"
-        app:layout_constraintEnd_toEndOf="@+id/imagen9"
-        app:layout_constraintStart_toStartOf="@id/imagen9"
-        app:layout_constraintTop_toTopOf="@id/imagen9"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="697dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar9"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar9"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar9"
+        app:layout_constraintTop_toTopOf="@id/imgAvatar9"
+        app:layout_constraintVertical_bias="0.92" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

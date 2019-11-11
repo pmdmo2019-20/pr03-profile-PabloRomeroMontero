@@ -130,7 +130,7 @@ class AvatarActivityTest {
 
     @Test
     fun shouldChangeSelectionWhenTextView8Clicked() {
-        shouldChangeSelectionWhenViewClicked(R.id.lblAvatar8, R.id.chkAvatar8)
+        shouldChangeSelectionWhenViewClicked(R.id.lblAvatar7, R.id.chkAvatar8)
     }
 
     @Test

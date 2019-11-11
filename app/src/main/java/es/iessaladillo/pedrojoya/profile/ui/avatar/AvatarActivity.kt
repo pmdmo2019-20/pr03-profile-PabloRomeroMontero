@@ -21,7 +21,7 @@ class AvatarActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.avatar_activity)
-         TODO
+        // TODO
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -31,7 +31,7 @@ class AvatarActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.mnuSelect) {
-             TODO
+             // TODO
             return true
         }
         return super.onOptionsItemSelected(item)
